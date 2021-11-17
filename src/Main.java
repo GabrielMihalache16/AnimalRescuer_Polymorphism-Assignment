@@ -1,6 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        Animal dog1 = new Animal();
+        //TEMA INHERITANCE
+        Dog dog1 = new Dog();
+        Cat cat1 = new Cat();
         dog1.setName("Azorel");
         dog1.setAge((byte)15);
         dog1.setHealthLevel((byte)5);
@@ -10,25 +12,53 @@ public class Main {
         dog1.setFavouriteRecreationActivity("plimbare");
         dog1.animalPrint();
 
-        Adopter adp1 = new Adopter();
-        adp1.setName("Veronica");
-        adp1.setAvailableMoney((double)100);
-        adp1.adopterPrint();
+        dog1.dogHidesBone();
 
-        AnimalFood af1 = new AnimalFood();
-        af1.setName("Pate");
-        af1.setPrice((double)150);
-        af1.setQuantity(10);
-        af1.setAvailable(true);
-        af1.foodPrint();
+        cat1.setName("Bobita");
+        cat1.catScratchStapan();
 
-        RecreationActivity rac1 = new RecreationActivity();
-        rac1.setName("Plimbare");
-        rac1.printRecreationActivity();
+        WhiteAdopter wadp1 = new WhiteAdopter();
+        wadp1.setName("Veronica");
+        wadp1.setAvailableMoney((double)100);
+        wadp1.adopterPrint();
 
-        Veterinarian vet1 = new Veterinarian();
-        vet1.setName("Gigel");
-        vet1.setSpecialization("Caini");
-        vet1.vetPrint();
+        BlackAdopter badp1 = new BlackAdopter();
+        badp1.setName("JoeWho");
+        badp1.nBeWildin();
+
+        Boabe boabe = new Boabe();
+        boabe.setName("Pate");
+        boabe.setPrice((double)150);
+        boabe.setQuantity(10);
+        boabe.setAvailable(true);
+        boabe.foodPrint();
+
+        PapaConserva conserva = new PapaConserva();
+        conserva.eatConserva();
+
+
+        Walking walk1 = new Walking();
+        walk1.setName("Plimbare");
+        walk1.printRecreationActivity();
+        walk1.walk();
+
+        AsistentVet asvet1 = new AsistentVet();
+        VetNecalificat nevet = new VetNecalificat();
+        asvet1.setName("Gigel");
+        asvet1.setSpecialization("Caini");
+        asvet1.vetPrint();
+
+        nevet.setName("Slorin Falam");
+        nevet.namDiploma();
+
+
+
+
+
+
+
+
+
+
     }
 }
