@@ -12,5 +12,8 @@ public class Veterinarian {
     public void setSpecialization(String specialization) {
         this.specialization = specialization;
     }
+    public void vetWorks(){
+        System.out.println("The vet is working.");
+    }
 }
 

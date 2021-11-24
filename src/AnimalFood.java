@@ -23,4 +23,8 @@ public class AnimalFood {
     public void setAvailable(boolean available) {
         isAvailable = available;
     }
+
+    public void animalEats(){
+        System.out.println("The animal is eating.");
+    }
 }

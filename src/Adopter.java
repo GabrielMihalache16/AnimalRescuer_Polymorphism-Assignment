@@ -13,4 +13,8 @@ public class Adopter {
     public void setAvailableMoney(double availableMoney) {
         this.availableMoney = availableMoney;
     }
+
+    public void adopterAdopts(){
+        System.out.println("Am adoptat un animal.");
+    }
 }

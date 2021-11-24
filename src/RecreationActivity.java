@@ -7,4 +7,7 @@ public class RecreationActivity {
     public void setName(String name) {
         this.name = name;
     }
+    public void animalRun(){
+        System.out.println("The animal is running.");
+    }
 }

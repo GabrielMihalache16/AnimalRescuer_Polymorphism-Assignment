@@ -11,6 +11,9 @@ public class Animal {
         System.out.println("Name: " +name + "\nAge: " + age + "\nHealth status: " +healthLevel + "\nHunger level: " + hungerLevel + "\nSpirit level:" +spiritLevel + "\nFavourite food: " +favouriteFood + "\nFavourite Activity: " + favouriteRecreationActivity);
 
     }
+    public void animalTalk(){
+        System.out.println("Buna!");
+    }
 
     public void setName(String name) {
         this.name = name;

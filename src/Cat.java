@@ -1,5 +1,5 @@
 public class Cat extends Animal{
-    public void catMeow(){
+    public void animalTalk(){
         System.out.println("meows");
     }
 

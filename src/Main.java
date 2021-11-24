@@ -11,7 +11,6 @@ public class Main {
         dog1.setFavouriteFood("pate");
         dog1.setFavouriteRecreationActivity("plimbare");
         dog1.animalPrint();
-
         dog1.dogHidesBone();
 
         cat1.setName("Bobita");
@@ -50,6 +49,18 @@ public class Main {
 
         nevet.setName("Slorin Falam");
         nevet.namDiploma();
+
+        //Tema Polimorfism
+        dog1.animalTalk();
+        cat1.animalTalk();
+        wadp1.adopterAdopts();
+        badp1.adopterAdopts();
+        walk1.animalRun();
+        boabe.animalEats();
+        conserva.animalEats();
+        asvet1.vetWorks();
+        nevet.vetWorks();
+
 
 
 
